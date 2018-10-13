@@ -5,7 +5,7 @@ import com.bereda.mateusz.view.GUI;
 
 public class Main {
     public static void main(String[] args) {
-        UserRepo.initFakeData();
+        UserRepo.connect();
         GUI.helloScreen();
     }
 }
